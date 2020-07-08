@@ -6,8 +6,21 @@
     <title>Contact</title>
 </head>
 <body>
+    <h3>Mucontact details</h3>
     <ul>
-        <li><a href="mailto: dallyla.s.oliveira@gmail.com">My Email </a>✉</li>
+        <li><a href="mailto: dallyla.s.oliveira@gmail.com">My Email</a> 💻</li>
+        <li><a href="tel:81997372392">My phone number</a> 📱</li>
     </ul>
+
+    <form enctype="text/plain" action="mailto: dallyla.s.oliveira@gmail.com" method="post"><!-- action diz o que vai acontecer quando clicar em submit// enctype especifica o tipo de encoding usado na página-->
+        <label for="">Your name:</label>
+        <input type="text" name="yourName"><br><br><!--name identifica o tipo de dado dos inputs-->
+        <label for="">Your email:</label>
+        <input type="email" name="yourEmail" id=""><br><br>
+        <label for="">Your Message:</label><br>
+        <textarea name="yourMessage" id="" cols="20" rows="10"></textarea>
+        <input type="submit">
+        
+    </form>
 </body>
 </html>
